@@ -1,38 +1,55 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+    font-size: 4rem;
+    line-height: 1;
+}
+p {
+    font-size: 1.5rem;
+    line-height: 1;
+}
+body {
+    margin: 0;
+    font-family: 'Prompt', sans-serif;
+    color: white;
+    background: #232322;
+    overflow-x: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 200px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.spacer {
+    aspect-ratio: 960/540;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
-
-.App-link {
-  color: #61dafb;
+.content {
+    text-align: center;
+    margin: 0 100px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.layer1 {
+    background-image: url('./images/waves.svg');
+    display: block;
+}
+.layer2 {
+    background-image: url('./images/wave.svg');
+    display: block;
+}
+.flip {
+    transform: rotate(180deg);
+}
+.project {
+    width: 800px;
+    height: 480px;
+    border-radius: 5px;
+    line-height: 1;
 }
