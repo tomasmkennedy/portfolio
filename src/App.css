@@ -1,13 +1,25 @@
 .App {
   text-align: center;
 }
-h1 {
-    font-size: 4rem;
-    line-height: 1;
+@media (min-width: 550px) {
+    h1 {
+        font-size: 4rem;
+        line-height: 1;
+    }
+    p {
+        font-size: 1.5rem;
+        line-height: 1;
+    }
 }
-p {
-    font-size: 1.5rem;
-    line-height: 1;
+@media (max-width: 550px) {
+    h1 {
+        font-size: 3vh;
+        line-height: 1;
+    }
+    p {
+        font-size: 1.5vh;
+        line-height: 1;
+    }
 }
 body {
     margin: 0;
@@ -35,7 +47,7 @@ section {
 .content {
     text-align: center;
     margin: 400px auto auto;
-    width: 800px;
+    width: 90%;
 }
 .layer1 {
     background-image: url('./images/waves.svg');
@@ -51,6 +63,7 @@ section {
 .project {
     width: 800px;
     height: 480px;
+    max-width: 100%;
     border-radius: 5px;
     line-height: 1;
 }
