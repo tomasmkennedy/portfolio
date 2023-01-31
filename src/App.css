@@ -34,7 +34,8 @@ section {
 }
 .content {
     text-align: center;
-    margin: 0 100px;
+    margin: 400px auto auto;
+    width: 800px;
 }
 .layer1 {
     background-image: url('./images/waves.svg');
