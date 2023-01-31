@@ -9,7 +9,7 @@ function App() {
           <div className="spacer layer1">
             <div className="content" style={{ marginTop: 150, lineHeight: 0 }}>
               <h1>Hi, I'm Tomas</h1>
-              <p>I'm a computer sciecne student at The Ohio State University. I love software development so I
+              <p>I'm a computer science student at The Ohio State University. I love software development so I
               figured I would make a place to show off some of my projects
                 </p>
             </div>
