@@ -3,47 +3,61 @@
 }
 @media (min-width: 550px) {
     h1 {
-        font-size: 4rem;
+        font-size: 4rem !important; 
         line-height: 1;
     }
     p {
         font-size: 1.5rem;
         line-height: 1;
     }
-    .project {
+    .carousel-container {
+        margin: auto auto 40px;
         width: 800px;
         height: 480px;
         border-radius: 5px;
         line-height: 1;
     }
+    .carousel-img {
+      width: 800px;
+      height: 480px;
+    }
 }
 @media (max-width: 550px) {
     h1 {
-        font-size: 3vh;
+        font-size: 3vh !important;
         line-height: 1;
     }
     p {
         font-size: 1.5vh;
         line-height: 1;
     }
-    .project {
+    .carousel-container {
         width: 300px;
         height: 180px;
         border-radius: 5px;
         line-height: 1;
     }
+    .carousel-img {
+        width: 300px;
+        height: 180px;
+    }
+}
+.carousel-text {
+  color: black;
+  font-family: 'Prompt', sans-serif !important;
 }
 body {
-    margin: 0;
-    font-family: 'Prompt', sans-serif;
+    margin: 0 !important; 
+    font-family: 'Prompt', sans-serif !important;
     color: white;
-    background: #232322;
+    background: #232322 !important;
     overflow-x: hidden;
 }
 
 section {
     position: relative;
     display: flex;
+    color: white;
     flex-direction: column;
     align-items: center;
     min-height: 200px;
