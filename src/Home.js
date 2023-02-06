@@ -8,7 +8,7 @@ function Home() {
             <section>
                 <div className="spacer layer1">
                     <div className="content" style={{ marginTop: 50, lineHeight: 0 }}>
-                        <h1>Kanban Board</h1>
+                        <h1>Hi, I'm Tomas</h1>
                         <p>I'm a computer science student at The Ohio State University. I love software development so I
                         figured I would make a place to show off some of my projects
                 </p>
